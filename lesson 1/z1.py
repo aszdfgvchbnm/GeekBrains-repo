@@ -25,11 +25,13 @@ print(' \n  /\_/\ \n ( o.o )\n  = ^ = ')
 dey = input ('==Показать задачу 2?== (y/n) ')
 if dey == 'y':
 	print('==Задача 2==')
-	num = list(input('Значение num: '))
+	num_1 = list(input('Значение num_1: '))
+	num_2 = list(input('Значение num_2: '))
 	i = input ('==Давайте развернем цифры?== (y/n) ') 
 	if i == 'y':
-		num.reverse()
-		print (num)
+		num_1.reverse()
+		num_2.reverse()
+		print(num_1,num_2)
 		if i == 'n':
 			print('До Свидания')
 if dey == 'n':
